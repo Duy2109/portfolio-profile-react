@@ -1,0 +1,52 @@
+.footer-section
+{
+    text-align: center;
+    color: black !important;;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    font-family: Lucida Console;
+    font-weight: 600;
+    font-size: 14px;
+    height: 100%;
+    border-radius: 10px;
+    padding-top: 40px;
+}
+/* container row footer */
+.css-1izr7si{
+    max-width: 160px;
+    height: auto;
+    justify-content: center;
+    color: orange;
+}
+.sta_content{
+    align-items: center;
+    
+    margin-top: 5px;
+}
+
+
+
+/* icon css  */
+.icon_css{
+    margin-bottom: 50px;
+}
+
+.icon_styles{
+    margin: 20px;
+    cursor: pointer;
+    align-items: center;
+}
+.icon_styles:hover{
+    color: antiquewhite;
+}
+
+
+/* styles <a />*/
+
+.a_styles{
+    color: orange
+}
+
+
+
+
+

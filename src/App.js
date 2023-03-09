@@ -12,14 +12,15 @@ import Home from "./Components/Home/HomeSection.js";
 import Testimonial from './Components/Testimonial/Testimonial';
 import Contact from './Components/Contact/Contact';
 import Sidebar from './Components/Sidebar/Sidebar';
+import Footer from "./Components/Footer";
 
 export const ThemeContext = createContext(null);
 
 const App = () => {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
 
   const changeTheme = () => {
-    setTheme((prev) => (prev === "light" ? "dark" : "light"));
+    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
   };
 
   return (
@@ -37,8 +38,10 @@ const App = () => {
         <Project />
         <Testimonial />
         <Contact />
+        <div className="footer-styles">
+        <Footer />
+        </div>
       </div>
-
       <ScrollToTop
         smooth={true}
         top="20"

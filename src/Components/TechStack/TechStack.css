@@ -7,7 +7,9 @@
 
 .section-title h5{
 
+    
     text-align: center;
+    
 
 }
 
@@ -109,4 +111,7 @@ transition-duration: 1s;
 .load-more-tech-stack:hover{
     background-color: blueviolet;
     transition-duration: 1s;
+}
+#techstack{
+    font-family: lucida console ;
 }

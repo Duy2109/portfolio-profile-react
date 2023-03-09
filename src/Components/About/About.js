@@ -20,13 +20,13 @@ const About = () => {
           <div className="about-details">
             <Flip left>
               <div className="about-title">
-                <h5>About Me</h5>
+                <h5 className="font-form">About Me</h5>
                 <span className="line"></span>
               </div>
             </Flip>
 
             <Fade right>
-              <p>
+              <p className="font-form">
                 Tôi là nhà phát triển phần mềm toàn ngăn xếp (MERN Stack), Udemy
                 và Người hướng dẫn Skillshare. Tôi đã lấy bằng cử nhân Kỹ thuật
                 phần mềm và hiện tại, tôi đang học Thạc sĩ Khoa học dữ liệu tại
@@ -36,7 +36,7 @@ const About = () => {
                 lập trình, phát triển web, phát triển di động và UI/UX trên
                 Udemy và chia sẻ kỹ năng từ năm 2018.
               </p>
-              <p>
+              <p className="font-form">
                 Tôi đã dạy hơn 100 nghìn sinh viên trên Udemy từ khắp nơi trên
                 thế giới. Tôi thích chia sẻ kiến ​​thức của mình với người khác.
               </p>

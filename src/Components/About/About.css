@@ -8,10 +8,11 @@
     height: 500px;
 
 
+
 }
 
 #dark .about-section{
-    background-color: #38004C;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
     -webkit-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
     -moz-box-shadow: -6px 11px 5px -4px rgba(0, 0, 0, 0.42);
@@ -49,7 +50,9 @@
 
 }
 
-
+.font-form{
+    font-family: Lucida Console;
+}
 
 @media (max-width:1000px) {
     .about-section{
